@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Function to generate a referral link
 function generateReferralLink(username, referralCode) {
-    const baseLink = 'https://jmservice.github.io/final/login?ref=';
+    const baseLink = 'https://jmservice.github.io/final/signup.html?ref=';
     const referralLink = baseLink + referralCode;
     return referralLink;
 }
